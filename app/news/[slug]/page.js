@@ -12,6 +12,8 @@ export default function NewsDetailPage({ params }) {
           <img
             src={`/images/news/${newsItem.image}`}
             alt={newsItem.title}
+            height={400}
+            width={400}
           ></img>
         </Link>
         <h1>{newsItem.title}</h1>
